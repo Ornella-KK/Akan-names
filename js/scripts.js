@@ -8,5 +8,5 @@ weekday[6]= "Saturday";
 weekday[7]= "Sunday";
 var day= weekday[onSubmit.getDay()];
 if(day==Monday && female){
-    console.log("Your Akan name is ADWOA")
+    alert("Your Akan name is ADWOA")
 };
