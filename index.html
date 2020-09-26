@@ -20,27 +20,28 @@
                             <h4>Fill in form:</h4>
             <form name="akanGuess">
                 <div class="form-group">
-                    <label for="inputMonth">Month:</label>
+                    <label for="inputMonth" class="month">Month:</label>
                     <select name="month" id="month">
                         <optgroup label="Month">
                             <option value="month"></option>
-                            <option value="january">January</option>
-                            <option value="february">February</option>
-                            <option value="march">March</option>
-                            <option value="april">April</option>
-                            <option value="may">May</option>
-                            <option value="june">June</option>
-                            <option value="july">July</option>
-                            <option value="august">August</option>
-                            <option value="september">September</option>
-                            <option value="october">October</option>
-                            <option value="november">November</option>
-                            <option value="december">Decemember</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
                         </optgroup>
                     </select>
+                    <input type="number" class="form-control" id="month">
                 </div>
                 <div class="form-group">
-                    <label for="inputDate">Date</label>
+                    <label for="inputDate" class="date">Date</label>
                     <select name="date" id="date">
                         <optgroup label="Date">
                             <option value="date"></option>
@@ -77,10 +78,11 @@
                             <option value="31">31</option>
                         </optgroup>
                     </select>
+                    <input type="number" class="form-control" id="date">
                 </div>
                 <div class="form-group">
                     <label for="inputYear">Year:</label>
-                    <input type="year" class="form-control" id="inputYear" placeholder="Year">
+                    <input type="number" class="form-control" id="inputYear" placeholder="Year">
                 </div>
                 <div class="form-group">
                     <label for="inputGender">Gender</label>
