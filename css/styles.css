@@ -1,15 +1,17 @@
 .row{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbS-T8qKu7sHBxc_GmxkENJfqTFJY1Ph4sPQ&usqp=CAU");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIbCTVusVH9ksfS7QP8YXJisJXNugp-XcacQ&usqp=CAU");
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
 }
 .jumbotron{
-    background-color: aquamarine;
+    background-color: darkred;
     text-align: center;
-    color: coral;
+    color: rgb(250, 178, 151);
 }
 form{
+    color: black;
+}
+h4{
     color: black;
 }
