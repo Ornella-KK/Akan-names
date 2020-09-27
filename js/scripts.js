@@ -3,6 +3,13 @@ function getInput(){
     var inputMonth=parseInt(document.getElementById("month").value);
     var inputDate=parseInt(document.getElementById("date").value);
     var inputYear=parseInt(document.getElementById("Year").value);
+    if(inputMonth>12 || inputMonth==0){
+        alert("Invalid Month");
+        return false;
+    }else if(inputDate>31 || inputDate==0){
+        alert("Inalid Date");
+        return false;
+    }
 }
 function calculateDay(){
     getInput();
