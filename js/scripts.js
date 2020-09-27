@@ -37,15 +37,32 @@ switch (gender) {
     case gender: "male"
     switch (day) {
         case 0 || -0:
-            
-            break;
-    
+            document.getElementById("result").innerHTML="You were born on Sunday, "+" your Akan Name is KWASI."
+        break;
+        case 1 || -1:
+            document.getElementById("result").innerHTML="You were born on Monday, "+" your Akan Name is KWADWO."
+        break;
+        case 2 || -2:
+            document.getElementById("result").innerHTML="You were born on Tuesday, "+" your Akan Name is KWABENA"
+        break;
+        case 3 || -3:
+            document.getElementById("result").innerHTML="You were born on Wednesday, "+"your Akan Name is KWAKU."
+        break;
+        case 4 || -4:
+            document.getElementById("result").innerHTML="You were born on Thursday "+"your Akan Name is YAW."   
+        break;
+        case 5 || -5:
+            document.getElementById("result").innerHTML="You were born on Friday "+"your Akan Name is KOFI."
+        break;
+        case 6 || -6:
+            document.getElementById("result").innerHTML="You were born on Saturday "+"your Akan Name is KWAME."            
+        break;
         default:
-            break;
+            
     }
         
         break;
-
+     
     default:
         break;
 }
