@@ -1,11 +1,15 @@
 .row{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8CIzTDBqAXYI-pNIb3acprLh2sQo5bTW_KQ&usqp=CAU");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbS-T8qKu7sHBxc_GmxkENJfqTFJY1Ph4sPQ&usqp=CAU");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
 }
 .jumbotron{
     background-color: aquamarine;
     text-align: center;
     color: coral;
+}
+form{
+    color: black;
 }
