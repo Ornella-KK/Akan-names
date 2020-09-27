@@ -19,3 +19,9 @@ function validate(form){
         return false;
     }
 }
+function calculateTheDay(){
+    getInput();
+    dayOfTheWeek=((((inputCentury/4)-2*inputCentury-1)+((5*inputYear/4))+((26*(inputMonth+1)/10))+inputDate)%7)-1;
+    console.log(dayOfTheWeek);
+    return((Math.floor(dayOfTheWeek)).toExponential(2));
+}
