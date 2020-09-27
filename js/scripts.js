@@ -1,8 +1,8 @@
 function getInput(){
-    var inputCentury=parseInt(document.getElementById("century");
+    var inputCentury=parseInt(document.getElementById("century").value);
     var inputMonth=parseInt(document.getElementById("month").value);
     var inputDate= parseInt(document.getElementById("date").value);
-    var inputYear=parseInt(document.getElementById("year");
+    var inputYear=parseInt(document.getElementById("year").value);
  if(inputMonth>12 || inputMonth==0){
      alert("Invalid month");
      return false;
@@ -23,16 +23,20 @@ function checkGender(){
 }
 function calculateTheDay(){
     getInput();
-    dayOfTheWeek=((((inputCentury/4)-2*inputCentury-1)+((5*inputYear/4))+((26*(inputMonth+1)/10))+inputDate)/1000);
+    dayOfTheWeek=((((inputCentury/4)-2*inputCentury-1)+((5*inputYear/4))+((26*(inputMonth+1)/10))+inputDate)%7)-1;
     console.log(dayOfTheWeek);
     return(Math.floor(dayOfTheWeek));
+    if(dayOfTheWeek<0){
+        dayOfTheWeek=dayOfTheWeek*-1;
+    }else if (dayOfTheWeek>0){
+        return dayOfTheWeek;
+    }
 }
 function myFunction(){
     day= calculateTheDay();
     checkGender();
     console.log("running");
 }
-var daysOfTheWeek=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
 switch (gender) {
     case gender: "male"
     switch (day) {
