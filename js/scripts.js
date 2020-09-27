@@ -23,9 +23,9 @@ function checkGender(){
 }
 function calculateTheDay(){
     getInput();
-    dayOfTheWeek=((((inputCentury/4)-2*inputCentury-1)+((5*inputYear/4))+((26*(inputMonth+1)/10))+inputDate)%7)-1;
+    dayOfTheWeek=((((inputCentury/4)-2*inputCentury-1)+((5*inputYear/4))+((26*(inputMonth+1)/10))+inputDate)/1000);
     console.log(dayOfTheWeek);
-    return((Math.floor(dayOfTheWeek)).toExponential(2));
+    return(Math.floor(dayOfTheWeek));
 }
 function myFunction(){
     day= calculateTheDay();
