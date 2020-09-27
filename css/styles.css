@@ -1,0 +1,11 @@
+.row{
+    background-image:url("https://news.visionspectra.com/wp-content/uploads/2016/09/2-564x640.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.jumbotron{
+    background-color: aquamarine;
+    text-align: center;
+    color: coral;
+}
